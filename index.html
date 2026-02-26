@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>María Fernanda Lara – CV Online</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f8;
+    color:#333;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:30px 10px;
+    position:relative;
+}
+
+header img{
+    position:absolute;
+    left:20px;
+    top:20px;
+    border-radius:50%;
+}
+.img1{
+    position:absolute;
+    left:1100px;
+    top:20px;
+    border-radius:50%;
+}
+
+.tabs, .subtabs{
+    display:flex;
+    justify-content:center;
+    background:#34495e;
+}
+
+.tab, .subtab{
+    padding:12px 20px;
+    cursor:pointer;
+    color:white;
+    border:none;
+    background:none;
+}
+
+.tab:hover, .subtab:hover, .active{
+    background:#1abc9c;
+}
+
+.content{
+    display:none;
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+    background:white;
+}
+
+.subcontent{
+    display:none;
+    margin-top:20px;
+}
+
+.show{
+    display:block;
+}
+
+h2, h3{
+    color:#2c3e50;
+}
+
+ul{
+    line-height:1.6;
+}
+
+a{
+    color:#1abc9c;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="foto.jpg" height="130" alt="foto de MFLC">
+<img id="fotoDeportiva" class="img1" src="foto2.jpg" height="130" style="display:none;"><img class="img1" img src="foto2.jpg" height="130">
+<h1>María Fernanda Lara Cabanás</h1>
+<p>PhD | Investigación Biomédica | Docencia | Salud y Deporte</p>
+</header>
+
+<!-- PESTAÑAS PRINCIPALES -->
+<div class="tabs">
+<button class="tab active" onclick="openTab('cientifico', this)">Perfil Científico</button>
+<button class="tab" onclick="openTab('docente', this)">Perfil Docente</button>
+<button class="tab" onclick="openTab('deportivo', this)">Perfil Deportivo</button>
+</div>
+
+<!-- PERFIL CIENTÍFICO -->
+<div id="cientifico" class="content show">
+
+<h2>Perfil Científico</h2>
+<p>
+Doctora en biología con más de 23 años de experiencia en investigación en biomedicina traslacional,
+y medicina personalizada. Siempre me ha preocupado la calidad de vida de las personas y cómo ésta se ve alterada por problemas médicos, como puede ser un cáncer, la incontinencia urinaria y más recientemente la salud sexual, tan infraestudiada. Enfocada en solución de problemas y coordinación de equipos multiculturales y multidisciplinares. Experiencia internacional en la Universidad de Stanford, MD Anderson Cancer Center y TransDerm INC. Con liderazgo
+de proyectos competitivos nacionales e internacionales. Tres sexenios reconocidos (CNEAI). Acreditación por ANECA como contratada 
+Doctora y profesora doctora de Universidad Privada. Miembro de 5 redes COST europeas y proponente secundaria de una sexta red COST.<br>
+41 publicaciones científicas, índice h=22, más de 1700 citas.
+</p>
+
+<!-- SUBPESTAÑAS -->
+<div class="subtabs">
+<button class="subtab active" onclick="openSubTab('publicaciones', this)">Publicaciones</button>
+<button class="subtab" onclick="openSubTab('proyectos', this)">Proyectos</button>
+<button class="subtab" onclick="openSubTab('cursos', this)">Cursos recibidos</button>
+<button class="subtab" onclick="openSubTab('cursos impartidos', this)">Cursos Impartidos</button>
+<button class="subtab" onclick="openSubTab('idiomas', this)">Idiomas</button>
+<button class="subtab" onclick="openSubTab('otros', this)">Otros Datos de interés</button>
+</div>
+
+<!-- PUBLICACIONES -->
+<div id="publicaciones" class="subcontent show">
+<h3>Publicaciones</h3>
+<p>Puedes consultar el listado completo en:</p>
+<a href="https://pubmed.ncbi.nlm.nih.gov/?term=lara%20mf" target="_blank">
+Ver publicaciones en PubMed<br><br>
+</a>
+ <b>1.-</b> Genomic characterization of upper urinary tract urothelial carcinoma and clonal
+evolution of intravesical recurrences. SENT to European urology. . Alberto Nakauma-Gonzalez, Veronika Bahlinger, Thomas van Doeveren, Harmen J.G. van de Werken, Jozien Helleman, Justine Pasanisi, Julien Masliah Planchon, Ivan Bieche, Therese Wilhelm, Geert J.L.H. van Leenders, Maria Fernanda Lara, Francisco Porcel-Pastrana, Enrique Gómez-Gómez, Raúl M. Luque, Lucia García-Morales, Markus Eckstein, Robert Stöhr, Danijel Sikic, Isabel García Muñoz, Juan Daniel Prieto Cuadra, Maria José Lozano, Martina Álvarez15, Elisa Matas-Rico, Arndt Hartmann, Bernardo Herrera-Imbroda, Yves Allory, Joost L. Boormans. 2026. REF EURUROL-26-00265. <a href="molcarutuc 2.pdf">PDF</a><br><br>
+<b>2.- </b> Frequency of microsatellite instability (MSI) in upper tract urothelial carcinoma: comparison of the Bethesda panel and the Idylla MSI assay in a consecutively collected, multi-institutional cohort.
+Kullmann F, Strissel PL, Strick R, Stoehr R, Eckstein M, Bertz S, Wullich B, Sikic D, Wach S, Taubert H, Olbert P, Heers H, Lara MF, Macias ML, Matas-Rico E, Lozano MJ, Prieto D, Hierro I, van Doeveren T, Bieche I, Masliah-Planchon J, Beaurepere R, Boormans JL, Allory Y, Herrera-Imbroda B, Hartmann A, Weyerer V.
+J Clin Pathol. 2023 Feb;76(2):126-132. doi: 10.1136/jclinpath-2021-207855. Epub 2021 Sep 28.<a href="jclinpath-Molcarutuc.pdf"> PDF</a><br><br>
+<b>3.- </b> Multi-Centre Study of Progression Factors and Intravesical Recurrence in Patients with Urothelial Carcinoma of the Upper Urinary Tract.
+García-Morales L, Contreras-Matos FJ, Blanca-Pedregosa A, Mellado-Castillero A, Campos-Hernández JP, Lara MF, Puche-Sanz I, Gómez-Gómez E.
+Diagnostics (Basel). 2024 Nov 7;14(22):2491. doi: 10.3390/diagnostics14222491. <a href="diagnostics KIKE.pdf"> PDF</a><br><br>
+<b>4.- </b> Stress urinary incontinence animal models as a tool to study cell-based regenerative therapies targeting the urethral sphincter.
+Herrera-Imbroda B, Lara MF, Izeta A, Sievert KD, Hart ML.
+Adv Drug Deliv Rev. 2015 Mar;82-83:106-16. doi: 10.1016/j.addr.2014.10.018. Epub 2014 Oct 23. <a href="stress urinary.pdf"> PDF</a><br><br>
+<b>5.- </b> The Urinary Tract Microbiome in Health and Disease.
+Aragón IM, Herrera-Imbroda B, Queipo-Ortuño MI, Castillo E, Del Moral JS, Gómez-Millán J, Yucel G, Lara MF.
+Eur Urol Focus. 2018 Jan;4(1):128-138. doi: 10.1016/j.euf.2016.11.001. Epub 2016 Nov 14. <a href="microbiome.pdf"> PDF</a><br><br>
+<b>6.-</b>  Cell Therapy Clinical Trials for Stress Urinary Incontinence: Current Status and Perspectives.
+Aragón IM, Imbroda BH, Lara MF. Int J Med Sci. 2018 Jan 1;15(3):195-204. doi: 10.7150/ijms.22130. eCollection 2018. <a href="ijms Lara Aragon.pdf"> PDF</a><br><br>
+<b>7.-</b>  Isolation and characterization of myogenic precursor cells from human cremaster muscle.
+Naldaiz-Gastesi N, Goicoechea M, Aragón IM, Pérez-López V, Fuertes-Alvarez S, Herrera-Imbroda B, López de Munain A, de Luna-Diaz R, Baptista PM, Fernández MA, Lara MF, Izeta A.
+Sci Rep. 2019 Mar 5;9(1):3454. doi: 10.1038/s41598-019-40042-6. <a href="scientific report Neia.pdf"> PDF</a><br><br>
+<b>8.- </b> Ex vivo construction of a novel model of bioengineered bladder mucosa: A preliminary study.
+Jaimes-Parra BD, Valle-Díaz de la Guardia F, Arrabal-Polo MÁ, Herrera-Imbroda B, Lara MF, Machuca-Santa-Cruz FJ, Campos A, Alaminos M, Crespo PV, Garzón I.
+Int J Urol. 2016 Jan;23(1):85-92. doi: 10.1111/iju.12963. Epub 2015 Oct 26. <a href="IJU Alaminos.pdf"> PDF</a><br><br>
+<b>9.- </b> Percutaneous Tibial Nerve Stimulation Therapy for Overactive Bladder Syndrome: Clinical Effectiveness, Urodynamic, and Durability Evaluation.
+Del Río-Gonzalez S, Aragon IM, Castillo E, Milla-España F, Galacho A, Machuca J, Lara MF, Herrera-Imbroda B.
+Urology. 2017 Oct;108:52-58. doi: 10.1016/j.urology.2017.04.059. <a href="jurology tibial.pdf"> PDF</a><br><br>
+<b>10.- </b> Use of self-delivery siRNAs to inhibit gene expression in an organotypic pachyonychia congenita model.
+Hickerson RP, Flores MA, Leake D, Lara MF, Contag CH, Leachman SA, Kaspar RL.
+J Invest Dermatol. 2011 May;131(5):1037-44. doi: 10.1038/jid.2010.426. <a href="jid Robyn.pdf"> PDF</a> <br><br>
+<b>11.- </b> Intravital fluorescence imaging of small interfering RNA-mediated gene repression in a dual reporter melanoma xenograft model.
+Hickerson RP, Gonzalez-Gonzalez E, Vlassov AV, Li M, Lara MF, Contag CH, Kaspar RL.
+Nucleic Acid Ther. 2012 Dec;22(6):438-43. doi: 10.1089/nat.2012.0364. <a href="nat.Robyn.pdf"> PDF</a> <br><br>
+<b>12.- </b> Gene silencing following siRNA delivery to skin via coated steel microneedles: In vitro and in vivo proof-of-concept.
+Chong RH, Gonzalez-Gonzalez E, Lara MF, Speaker TJ, Contag CH, Kaspar RL, Coulman SA, Hargest R, Birchall JC.
+J Control Release. 2013 Mar 28;166(3):211-9. doi: 10.1016/j.jconrel.2012.12.030. Epub 2013 Jan 8.<a href="jcR Rosalin.pdf"> PDF</a><br><br>
+<b>13.-</b>  Inhibition of CD44 gene expression in human skin models, using self-delivery short interfering RNA administered by dissolvable microneedle arrays.
+Lara MF, González-González E, Speaker TJ, Hickerson RP, Leake D, Milstone LM, Contag CH, Kaspar RL.
+Hum Gene Ther. 2012 Aug;23(8):816-23. doi: 10.1089/hum.2011.211. Epub 2012 Jun 5. <a href="hum gene ther. Lara.pdf"> PDF</a> <br><br>
+<b>14.-</b>  Non-Invasive Intravital Imaging of siRNA-Mediated Mutant Keratin Gene Repression in Skin.
+Hickerson RP, Speaker TJ, Lara MF, González-González E, Flores MA, Contag CH, Kaspar RL.
+Mol Imaging Biol. 2016 Feb;18(1):34-42. doi: 10.1007/s11307-015-0875-z.<a href="mol. imag. Robyn.pdf"> PDF</a> <br><br>
+<b>15.-</b>  Visualization of plasmid delivery to keratinocytes in mouse and human epidermis.
+González-González E, Kim YC, Speaker TJ, Hickerson RP, Spitler R, Birchall JC, Lara MF, Hu RH, Liang Y, Kirkiles-Smith N, Prausnitz MR, Milstone LM, Contag CH, Kaspar RL.
+Sci Rep. 2011;1:158. doi: 10.1038/srep00158. <a href="srepEmilio.pdf"> PDF</a> <br><br>
+<b>16.- </b> Advances in the treatment of prostate cancer with radiotherapy.
+Gómez-Millán J, Lara MF, Correa Generoso R, Perez-Rozos A, Lupiáñez-Pérez Y, Medina Carmona JA.
+Crit Rev Oncol Hematol. 2015 Aug;95(2):144-53. doi: 10.1016/j.critrevonc.2015.02.008. Epub 2015 Feb 25.<a href="oncology&H.pdf">PDF</a><br><br>
+<b>17.-</b>  Molecular determinants of Akt-induced keratinocyte transformation.
+Segrelles C, Moral M, Lara MF, Ruiz S, Santos M, Leis H, García-Escudero R, Martínez-Cruz AB, Martínez-Palacio J, Hernández P, Ballestín C, Paramio JM.
+Oncogene. 2006 Feb 23;25(8):1174-85. doi: 10.1038/sj.onc.1209155. <a href="Molecular_determinants_of_Akt--1.pdf"> PDF</a><br><br>
+<b>18.-</b>  The Rb family connects with the Tp53 family in skin carcinogenesis.
+Lara MF, Paramio JM.
+Mol Carcinog. 2007 Aug;46(8):618-23. doi: 10.1002/mc.20338.<a href="MCTp53.pdf"> PDF</a> <br><br>
+<b>19.-</b>  p107 acts as a tumor suppressor in pRb-deficient epidermis.
+Lara MF, Santos M, Ruiz S, Segrelles C, Moral M, Martínez-Cruz AB, Hernández P, Martínez-Palacio J, Lorz C, García-Escudero R, Paramio JM.
+Mol Carcinog. 2008 Feb;47(2):105-13. doi: 10.1002/mc.20367.<a href="MC p107.pdf"> PDF</a><br><br>
+<b>20.-</b>  p21 suppresses inflammation and tumorigenesis on pRB-deficient stratified epithelia.
+Saiz-Ladera C, Lara MF, Garín M, Ruiz S, Santos M, Lorz C, García-Escudero R, Martínez-Fernández M, Bravo A, Fernández-Capetillo O, Segrelles C, Paramio JM.
+Oncogene. 2014 Sep 11;33(37):4599-4612. doi: 10.1038/onc.2013.417. <a href="oncogene Cristina.pdf"> PDF</a> <br><br>
+<b>21.-</b>  Functional link between retinoblastoma family of proteins and the Wnt signaling pathway in mouse epidermis.
+Ruiz S, Segrelles C, Santos M, Lara MF, Paramio JM.
+Dev Dyn. 2004 Jul;230(3):410-8. doi: 10.1002/dvdy.20065.<a href="Developmental Dynamics - 2004 - Ruiz - Functional link between retinoblastoma family of proteins and the Wnt signaling-1.pdf"> PDF</a><br><br>
+<b>22.- </b> Gene profiling approaches help to define the specific functions of retinoblastoma family in epidermis.
+Lara MF, García-Escudero R, Ruiz S, Santos M, Moral M, Martínez-Cruz AB, Segrelles C, Lorz C, Paramio JM.
+Mol Carcinog. 2008 Mar;47(3):209-21. doi: 10.1002/mc.20376. <a href="MCgene profiling.pdf"> PDF</a><br><br>
+<b>23.- </b> Susceptibility of pRb-deficient epidermis to chemical skin carcinogenesis is dependent on the p107 allele dosage.
+Santos M, Ruiz S, Lara MF, Segrelles C, Moral M, Martínez-Cruz AB, Ballestín C, Lorz C, García-Escudero R, Paramio JM.
+Mol Carcinog. 2008 Nov;47(11):815-21. doi: 10.1002/mc.20426. <a href="MCSantos.pdf"> PDF</a><br><br>
+<b>24.- </b> A novel tumor suppressor network in squamous malignancies.
+Costa C, Santos M, Segrelles C, Dueñas M, Lara MF, Agirre X, Prosper F, García-Escudero R, Paramio JM.
+Sci Rep. 2012;2:828. doi: 10.1038/srep00828. Epub 2012 Nov 9. <a href="srepCloti.pdf"> PDF</a><br><br>
+<b>25.- </b> Altered T cell differentiation and Notch signaling induced by the ectopic expression of keratin K10 in the epithelial cells of the thymus.
+Santos M, Río P, Ruiz S, Martínez-Palacio J, Segrelles C, Lara MF, Segovia JC, Paramio JM.
+J Cell Biochem. 2005 Jun 1;95(3):543-58. doi: 10.1002/jcb.20406.<a href="jCB Santos.pdf"> PDF</a> <br><br>
+<b>26.-</b>  A functional role of RB-dependent pathway in the control of quiescence in adult epidermal stem cells revealed by genomic profiling.
+Lorz C, García-Escudero R, Segrelles C, Garín MI, Ariza JM, Santos M, Ruiz S, Lara MF, Martínez-Cruz AB, Costa C, Buitrago-Pérez A, Saiz-Ladera C, Dueñas M, Paramio JM.
+Stem Cell Rev Rep. 2010 Jun;6(2):162-77. doi: 10.1007/s12015-010-9139-0. <a href="stem cell rev Corina.pdf"> PDF</a><br><br>
+<b>27.- </b> Akt mediates an angiogenic switch in transformed keratinocytes.
+Segrelles C, Ruiz S, Santos M, Martínez-Palacio J, Lara MF, Paramio JM.
+Carcinogenesis. 2004 Jul;25(7):1137-47. doi: 10.1093/carcin/bgh132. Epub 2004 Mar 4. <a href="Carcinogenesis Segrelles.pdf"> PDF</a><br><br>
+<b>28.- </b> Unexpected roles for pRb in mouse skin carcinogenesis.
+Ruiz S, Santos M, Lara MF, Segrelles C, Ballestín C, Paramio JM.
+Cancer Res. 2005 Nov 1;65(21):9678-86. doi: 10.1158/0008-5472.CAN-05-1853. <a href="unexpected role.pdf"> PDF</a> <br><br>
+<b>29.- </b> Constitutively active Akt induces ectodermal defects and impaired bone morphogenetic protein signaling.
+Segrelles C, Moral M, Lorz C, Santos M, Lu J, Cascallana JL, Lara MF, Carbajal S, Martínez-Cruz AB, García-Escudero R, Beltran L, Segovia JC, Bravo A, DiGiovanni J, Paramio JM.
+Mol Biol Cell. 2008 Jan;19(1):137-49. doi: 10.1091/mbc.e07-08-0764. Epub 2007 Oct 24.<a href="molecular biology Segrelles.pdf"> PDF</a><br><br>
+<b>30.- </b> An immunohistochemical study of cytokeratins distribution of the human adult male and female urethra.
+Herrera-Imbroda B, Aragón IM, Hierro MI, Álvarez M, Alaminos M, Campos A, Izeta A, Machuca J, Lara MF.
+Histol Histopathol. 2017 Mar;32(3):283-291. doi: 10.14670/HH-11-796. Epub 2016 Jun 24. <a href="H&H-3.pdf"> PDF</a><br><br>
+<b>31.-</b>  Akt activation synergizes with Trp53 loss in oral epithelium to produce a novel mouse model for head and neck squamous cell carcinoma.
+Moral M, Segrelles C, Lara MF, Martínez-Cruz AB, Lorz C, Santos M, García-Escudero R, Lu J, Kiguchi K, Buitrago A, Costa C, Saiz C, Rodriguez-Peralto JL, Martinez-Tello FJ, Rodriguez-Pinilla M, Sanchez-Cespedes M, Garín M, Grande T, Bravo A, DiGiovanni J, Paramio JM.
+Cancer Res. 2009 Feb 1;69(3):1099-108. doi: 10.1158/0008-5472.CAN-08-3240. Epub 2009 Jan 27.<a href="Cancer research Marta.pdf">PDF</a><br><br>
+<b>32.-</b>  Deregulated activity of Akt in epithelial basal cells induces spontaneous tumors and heightened sensitivity to skin carcinogenesis.
+Segrelles C, Lu J, Hammann B, Santos M, Moral M, Cascallana JL, Lara MF, Rho O, Carbajal S, Traag J, Beltrán L, Martínez-Cruz AB, García-Escudero R, Lorz C, Ruiz S, Bravo A, Paramio JM, DiGiovanni J.
+Cancer Res. 2007 Nov 15;67(22):10879-88. doi: 10.1158/0008-5472.CAN-07-2564. <a href="cancer research AKT.pdf"> PDF</a>
+<b>33.- </b> Spontaneous squamous cell carcinoma induced by the somatic inactivation of retinoblastoma and Trp53 tumor suppressors.
+Martínez-Cruz AB, Santos M, Lara MF, Segrelles C, Ruiz S, Moral M, Lorz C, García-Escudero R, Paramio JM.
+Cancer Res. 2008 Feb 1;68(3):683-92. doi: 10.1158/0008-5472.CAN-07-3049. <a href="cancer research Ana.pdf"> PDF</a><br><br>
+<b>34.-</b>  Partial proteasome inhibitors induce hair follicle growth by stabilizing β-catenin.
+Yucel G, Van Arnam J, Means PC, Huntzicker E, Altindag B, Lara MF, Yuan J, Kuo C, Oro AE.
+Stem Cells. 2014 Jan;32(1):85-92. doi: 10.1002/stem.1525. <a href="Stem Cells.pdf"> PDF</a><br><br>
+<b>35.- </b> State-dependent signaling by Cav1.2 regulates hair follicle stem cell function.
+Yucel G, Altindag B, Gomez-Ospina N, Rana A, Panagiotakos G, Lara MF, Dolmetsch R, Oro AE.
+Genes Dev. 2013 Jun 1;27(11):1217-22. doi: 10.1101/gad.216556.113. <a href="genes and dev.pdf">PDF</a><br><br>
+<b>36.- </b> Sex Surveys in Europe: Reflections on over Four Decades of Sexual Behavior and Sexual Health Surveillance.
+de Graaf H, Mitchell K, Clifton S, Lara MF, Dewaele A, Dupont J, Klapilova K, Lazdāne G, Briken P, Træen B, Bajos N, Ljungcrantz D, Kontula O.
+J Sex Res. 2023 Sep;60(7):1020-1033. doi: 10.1080/00224499.2023.2222403. Epub 2023 Jun 20. <a href="sex surveys.pdf"> PDF</a><br><br>
+<b>37.- </b> PDE5A Polymorphisms Influence on Sildenafil Treatment Success.
+Marchal-Escalona C, Herrera-Imbroda B, Clemente-Postigo M, Alcaide-Torres J, Quiñonero A, Marchal M, Queipo-Ortuño MI, Aragón IM, Martín-Morales A, Lara MF, Cardona F.
+J Sex Med. 2016 Jul;13(7):1104-10. doi: 10.1016/j.jsxm.2016.04.075.<a href="jsm_Sildenafil.pdf">PDF</a><br><br>
+<b>38.- </b> Ectoderm-targeted overexpression of the glucocorticoid receptor induces hypohidrotic ectodermal dysplasia.
+Cascallana JL, Bravo A, Donet E, Leis H, Lara MF, Paramio JM, Jorcano JL, Pérez P. Endocrinology. 2005 Jun;146(6):2629-38. doi: 10.1210/en.2004-1246. <a href="endocrinology Paloma.pdf">PDF</a><br><br>
+<b>39.-</b>IGFBP-3 Interacts with the Vitamin D Receptor in Insulin Signaling Associated with Obesity in Visceral Adipose Tissue.
+ Moreno-Santos I, Castellano-Castillo D, Lara MF, Fernandez-Garcia JC, Tinahones FJ, Macias-Gonzalez M.
+Int J Mol Sci. 2017 Nov 7;18(11):2349. doi: 10.3390/ijms18112349.<a href="molecular science Macias.pdf"> PDF</a>
+ <br><br>
+<b>40.- </b> The search for specific Keratin Functions: the case of keratin K10. Book chapter.Biosciences/Springer. “Intermediate Filaments". Santos, Mirentxu ;Segrelles, Carmen ;Ruiz, Sergio ;Lara Cabanas, Maria Fernanda ;Paramio, Jesus M. 2006. p131 - 145. <br> <br>
+<br>
+</div>
+
+<!-- PROYECTOS -->
+<div id="proyectos" class="subcontent">
+<h3>Proyectos de Investigación Competitivos</h3>
+Documentos acreditativos: <a href="proyectos juntos.pdf"> PDF</a>
+<ul>
+<li><strong>Convocatoria EMERGIA20-0285 </strong>Identificación de nuevas herramientas de selección de pacientes con cáncer de urotelio superior (2021-2025) – Entidad Financiadora : CONSEJERÍA DE TRANSFORMACIÓN ECONÓMICA, INDUSTRIA, CONOCIMIENTO Y UNIVERSIDADES. Centro de realización: Universidad de Málaga. Cargo: <strong>Investigadora Principal.</strong></li>
+<li><strong>Accesit IBIMA 2019</strong> – Generación de esferas con capacidad miogénica como tratamiento de incontinencia urinaria (2019) - Entidad Financiadora: FIMABIS. Centro de realización: IBIMA. Cargo: Investigadora Principal.</li>
+<li><strong>TRANSCAN AC18/00081</strong>  – MOLCARUTUC: Comprehensive genomic characterization of upper urinary tract urothelial carcinoma and paired bladder recurrences. (2019-2025). Entidad Financiadora: Asociación Española contra el cáncer e Instituto de Salud Carlos III. Cargo: Investigadora Postdoctoral Senior.</li>
+<li><strong>PIN-0302-2017</strong> - PINNOCAV: Desarrollo, Implemetación, Pilotaje y Evaluación de una Plataforma de Innovación y Medicina Personalizada para la Optimización del Proceso y Manejo Asistencial de Pacientes con Cáncer Vesical. (2018-2021). Entidad Financiadora: Consejería de Salud de Andalucía. Centro de realización: Unidad CNIO-IBIMA de Tumores Genitourinarios, Málaga. Cargo: Investigadora Postdoctoral Senior.</li>
+<li><strong>RETOS RTC-2017-6501-1.</strong> - SENSORNAS: Development and validation of a marketable kit for chronic diseases detection based on point-of-care devises. (2018-2020). Entidad Financiadora: Ministerio de Ciencia e Innovación. Universidades. Centro de Realización: IBIMA. Cargo: Investigadora Postdoctoral Senior.</li>
+<li><strong>SAS: PI 0222-2014</strong> Terapia celular miogénica para el tratamiento de incontinencia urinaria.(2015-2018). Entidad Financiadora: Consejería de Salud y consumo de la Junta de Andalucía. Centro de realización: IBIMA. Cargo: <strong>Investigadora principal.</strong></li>
+<li><strong>DoD Impact Award 2017</strong>Clinical qualification of DNA repair defects as prognostic and predictive biomarker in metastatic prostate cancer using genomics and tissue-based functional assays. (2018-2021). Entidad Financiadora:Programa de Salud de Defensa del congreso de los EEUU. Centro de realización: Universidad de Washington, CNIO, VHIO e IBIMA. Cargo: Investidadora postdoctoral Senior.</li>
+<li><strong>SAS. PI12/02736</strong> Artificial Human Urethra tissue Bioengineering. (2013-2015). Entidad Financiadora: Fondo de Investigaciones Sanitarias (FIS). Instituto de Salud Carlos III (Ministerio de Economía y Competitividad). Centro de realización: IBIMA. Cargo: <strong> Investigadora postdoctoral Senior al cargo del proyecto y responsable de laboratorio.</strong></li>
+<li><strong>RFA-AR-18-005</strong>: Generation of an orthotopic pachyonychia congenita skin disease model that allows intravital real-time monitoring of siRNA effectiveness. (2011-2012) Entidad financiadora:Small Business Innovation Research (SBIR) Grant Phase II. Centro de realización: TransDerm. INC, Santa Cruz, CA, EEUU. Cargo: <strong>Investigadora postdoctoral Asociada y responsable del animalario.</strong></li>
+<li><strong>1RC2AARR058955:</strong>“Delivery of biologically active nucleic acids to epidermal cells” (2011-2012). Entidad financiadora: NIH/NIAMS. Centro de realización:TransDerm. INC, Santa Cruz, CA, EEUU. Cargo: <strong></strong> Investigadora postdoctoral Asociada y responsable del animalario.</strong></li>
+<li><strong>1R43AR059474-01:</strong>Evaluation of siRNA uptake and functional activity in a human organotypic skin model.(2010-21011) Entidad financiadora: bodies:NIH/NIAMS. Centro de realización: Stanford University/TransDerm INC. Cargo: <strong>Investigadora postdoctoral y responsable de animalario.</strong></li>
+<li><strong>SBIR 1R43AR055881-01:</strong>"In vivo imaging models for evaluating siRNA delivery to skin" (2009-2010). Entidad financiadora: (Small Business Innovation Research) de EE.UU.; Gobierno Federal de los Estados Unidos. Centro de realización: Stanford University, Pediatrics department, Imagine lab/TransDerm INC. Cargo: Investigadora postdoctoral y responsable de animalario.</li>
+<li><strong>"Study of the dermo-epidermal Sonic Hedgegog dependent signalling in palmo-plantar and non palmo-plantar skin"</strong> (2008-2009). Entidad financiadora: Ministerio de Ciencia e Innovación/Dean School of Medicine, Stanford University. Centro de realización: Stanford University; Dermatology department. Cargo: Investigadora postdoctoral junior.</li>
+<li><strong>AR052785:</strong>"The Role of calcium signaling in stem cell quiescence".(2007-2009). Entidad financiadora:NIH. Centro de realización: Stanford University; Dermatology department. Cargo: Investigadora postdoctoral junior.</li>
+<li><strong>Caracterización molecular del modelo transgénico murino de cáncer oral</strong>2005. Entidad financiadora: Fundación mutua Madrileña para la investigación. Centro de realización: CIEMAT, departamento de biología epitelial. Cargo: Investigadora predoctoral.</li>
+<li><strong>Interferencia funcional de genes supresores de tumores durante la carcinogénesis epitelial.</strong>(2004-2007). Entidad financiadora: Obra Social Fundación la Caixa. Centro de realización: CIEMAT, departamento de biología epitelial. Cargo: Investigadora predoctoral.</li>
+<li><strong>SAF2002-01037:</strong>Estudio de la función de la familia de Rb durante los procesos de proliferación, diferenciación y carcinogénesis en piel de modelos murinos. (2003-2005). Entidad financiadora: Ministerio de Ciencia y Tecnología. Centro de realización: CIEMAT, departamento de biología epitelial. Cargo: Investigadora predoctoral.</li>
+<li><strong>GR/SAL/0103/2004:</strong>Estudio de la función de Rb durante los procesos de proliferación, diferenciación y carcinogénesis. (2003-2005). Entidad financiadora: Comunidad de Madrid. Cargo: Investigadora predoctoral.</li>
+<li><strong>FIS 00/898:</strong>Expresión de proteínas del ciclo celular, análisis de microsatélites y mutaciones en el gen p53 como marcadores de progresión en neoplasias uroteliales (PTA, PTI) de la vejiga urinaria. (2001-2003). Entidad financiadora: Instituto de Salud Carlos III. Centro de realización: Hospital Universitario Reina Sofía de Córdoba, Departamento de Anatomía Patológica. Cargo: Investigadora predoctoral.</li>
+</ul>
+<h3>Ensayos clínicos</h3>
+Documentos acreditativos: <a href="15 MARIA FERNANDA LARA CABANAS_Fdo (2).pdf"> PDF</a><br><br>
+<ul>
+<li>Estudio observacional prospectivo sobre el uso de BOTOX ® en la práctica clínica habitual para el control de la incontinencia urinaria en pacientes con vejiga hiperactiva idiopática (VHI). MAF/AGN/NS/OAB/002 ( Estudio GRACE). Promotor: ALLERGAN PHARMACEUTICAL INTERNATIONAL LTD. Fecha:2015-2017. Cargo: miembro de equipo.</li><br>
+</ul>
+</div>
+
+<!-- CURSOS -->
+<div id="cursos" class="subcontent">
+<h3>Cursos Recibidos</h3>
+<ul> 
+<li>Certificado de profesionalidad: Confección y publicación de páginas WEB (IFCD0110). Entidad organizadora: Euroformat. 2026.</li>
+<li>Fotografía digital y empresa (IMST07). Entidad organizadora: Fundación Maude. 2025. <a href="FOTOGRAFÍA_DIGITAL_Y_EMPRESA_(IMST07)___0110019000003-Diploma_de_aprovechamiento_7312.pdf"> PDF</a></li>
+<li>Bibliometría Narrativa: Aplicación de principios DORA - COARA en la evaluación de la producción científica en Ciencias de la Salud. Entidad organizadora: IBIMA Plataforma BIONAND.2025. <a href="bibliografía narrativa.pdf"> PDF</a></li>
+<li>(D044-25) Edición de vídeos cortos para la exposición de contenidos docentes. Entidad organizadora:Servicio de Formación e Innovación de la Universidad de Málaga. 2025. <a href="certif edicion digital.pdf"> PDF</a></li>
+<li>III JORNADA NACIONAL SOBRE EL ABORDAJE INTERDISCIPLINAR DE LA ENDOMETRIOSIS. Entidad organizadora: FUNDACION GENERAL DE LA UNIVERSIDAD DE MALAGA. 2025. <a href="endometriosis 25.pdf"> PDF</a></li>
+<li>II JORNADA NACIONAL SOBRE EL ABORDAJE INTERDISCIPLINAR DE LA ENDOMETRIOSIS. Entidad organizadora: FUNDACION GENERAL DE LA UNIVERSIDAD DE MALAGA. 2024. <a href="28 Primera distinción poster Lara et al 4.pdf"> PDF</a></li>
+<li> Buenas Prácticas Clínicas. Entidad organizadora: Roche/Genentech. 2017. <a href="23 GCP v2.0_Lara Cabanas 2017.pdf"> PDF</a></li>
+<li>RIESGOS Y MEDIDAS PREVENTIVAS EN LABORATORIOS. Entidad organizadora: Premap. 2017. <a href="22 Cert. Mª Fernanda Lara.pdf"> PDF</a></li>
+<li>II SYMPOSIUM CNIO-IBIMA Prostate cancer and other genitourinary tumours. Entidad organizadora: CNIO/IBIMA. 2017. <a href="17 propiedad industrial.pdf"> PDF</a></li>
+<li>COST Training school Conscious urodynamic and EMG-measurements in rodents: a hand-on and surgical training course. Entidad organizadora: Universidad de Tübingen dentro del programa de European cooperation in science and Technology. 2016. <a href="21 conscius urodynamics.pdf"> PDF</a></li>
+<li>COST Training school on animal model of SUI. Entidad organizadora: IBIMA/UMA dentro del programa de European cooperation in science and Technology. M.Fernanda Lara organizadora y coordinadora. 2016. <a href="19animal model SUI COST.pdf"> PDF</a></li>
+<li>Certificado de competencia de bienestar animal en animales utilizados para experimentación y otros fines científicos (categoría C). Entidad organizadora: Universidad de Córdoba/Consejería de agricultura, pesca y desarrollo rural. 2015. <a href="certificado categoría C.pdf"> PDF</a></li>
+<li>GMP-compliant production of MSC. Entidad organizadora:Universidad de Tübingen dentro del programa de European cooperation in science and Technology. 2015. <a href="20 GMP compliant.pdf"> PDF</a></li>
+<li>Curso propiedad Industrial e Intelectual, expediente 2295/2012. Entidad organizadora: Oficina de Transferencia Tecnológica del Sistema Sanitario Público de Andalucía. 2013. <a href="17 propiedad industrial.pdf"> PDF</a></li>
+<li>Content and Handling of Standard Operating Procedures (SOP). Entidad organizadora: TransDerm INC. 2011. <a href="16 SOP Training 11_15_11.pdf"> PDF</a></li>
+<li>Working at Animal Biosafety Level 2 (VSC-0004-WEB). Entidad organizadora: Universidad de Stanford. 2010. <a href="curso en stanford1.pdf"> PDF</a></li>
+<li>Bloodborne Pathogens (EHS-1600-WEB). Entidad organizadora: Universidad de Stanford. 2010.</li>
+<li>Comprehensive Cancer Research Training Program. Entidad organizadora: Universidad de Stanford. 2009. <a href="15 comprehensive cancerresearch training.pdf"> PDF</a></li>
+<li>Criopreservación de gametos y embriones de ratón. Entidad organizadora: CIEMAT. 2007. <a href="14 criopreservación cara.pdf"> PDF</a></li>
+<li>2nd Cell Therapy and Regenerative Medicine. Entidad organizadora: Ministerio de Sanidad y Consumo. 2007. <a href="2 cell therapy and regenerative medicine.jpg"> JPG</a></li>
+<li>1nd Cell Therapy and Regenerative Medicine. Entidad organizadora: Ministerio de Sanidad y Consumo. 2006. <a href="1 cell therapy and regenerative medicine.jpg"> JPG</a></li>
+<li>Curso teórico práctico de citometría de flujo. Entidad organizadora: CIEMAT. 2005. <a href="14 criopreservación cara.pdf"> PDF</a></li>
+<li>Curso de toxicología genética. Entidad organizadora: Red de toxicología genética de España y Sudamérica. 2002. <a href="7 Toxicología genética (1).pdf"> PDF</a></li>
+<li>Alemán; Gestión comercial. Entidad organizadora: Comunidad de Madrid. 2001. <a href="2 Alemán gestión comercial cara.pdf"> PDF</a></li>
+</ul>
+</div>
+
+<!-- CURSOS IMPARTIDOS-->
+<div id="cursos impartidos" class="subcontent">
+<h3>Cursos Impartidos</h3>
+<ul>
+    <li>Módulo de educación afectivo-sexual del títulos propios de la Universidad de Valencia. Modalidad Online. Cursos 2023/24; 2024/25; 2025/26. <a href="certf Master salud sexual.pdf"> PDF</a><a href="certificado uv curso 25.pdf"> PDF2</a></li>
+    <li>Coordinadora y organizadora de la actividad ‘Beneficios del deporte en el tratamiento
+integrativo de endometriosis’ en el COLEGIO NUESTRA SEÑORA DE LA VICTORIA (HERMANOS MARISTAS), enmarcada en el evento ‘La noche europea
+de los Investigadores’ del ‘Plan Anual de Divulgación Científica de la Universidad de Málaga-UMA Divulga'. Curso 2025/26.</li>
+    <li>Codirectora de TFG: Tratamiento interdisciplinar de la Endometriosis. Universidad de Málaga. 2025. <a href="tutora TFG.pdf"> PDF</a></li>
+    <li>Coordinadora y organizadora de la actividad ‘Jugando aprendemos de salud sexual y diversidad’ en el Colegio Los
+Maristas, CDP Cruz Roja e IES Fernando de los Ríos, enmarcada en el evento ‘La noche europea
+de los Investigadores’. Esta actividad forma parte del ‘Plan Anual de Divulgación Científica de la
+Universidad de Málaga-UMA Divulga'. 2022 y 2024. <a href="Fernanda Lara.pdf"> PDF1; </a> <a href="peticionfiles_2024_04_Maria_Fernanda_Lara.pdf">PDF2</a></li>
+    <li>COST Training school on animal model of SUI. Entidad organizadora: IBIMA/UMA dentro del programa de European cooperation in science and Technology. M.Fernanda Lara organizadora y coordinadora. 2016. <a href="19animal model SUI COST.pdf"> PDF</a></li>
+   </ul>
+</div>
+
+<!-- IDIOMAS -->
+<div id="idiomas" class="subcontent">
+<h3>Idiomas</h3>
+<ul>
+    <li>Español: Nativa</li>
+    <li>Inglés: C1</li>
+    <li>Alemás: A2 <a href="animation.html"> PDF</a></li>
+ </ul>
+</div>
+<!-- OTROS -->
+<div id="otros" class="subcontent">
+<h3>Otros Datos de Interés.</h3>
+<ul>
+    <li><strong> Participación en Redes COST europeas: <a href="User Profile.pdf"> PDF</a></strong><br>
+        1.-CA22114 - Maternal Perinatal Stress and Adverse Outcomes in the Offspring: Maximising infants´development (TREASURE) 2023-2027.<br>
+        2.-COST Action 21108: European Network for Skin Engineering and Modeling. 2022-2026.<br>
+        3.-European Sexual Medicine Network COST ACTION CA 18124. 2019-2024.<br>
+        4.-In vitro 3-D total cell guidance and fitness. 2017-2021.<br>
+        5.-COST Action ReST BM1209. Regenerative Sphincter Therapy. MC substitute. 2012-2016. 
+    </li>
+    <li><strong>Participación en paneles de asesoría científica internacionales: <a href="currnt.convetit.pdf"> PDF</a></strong><br>
+        1.-Developing the Life Sciences Ecosystem of the Future. Entidad de afiliación: Currnt. 2019.<br>
+        2.-Barriers to Proactively Managing Patient Health. Entidad de afiliación: Currnt. 2019.<br>
+        3.-Technical Innovations in Botany, Gardening, & Agriculture. Entidad de afiliación: Currnt. 2019.<br>
+        4.-Sensing Trends & Disruptions Impacting the HEALTH Workforce. Entidad de afiliación: Currnt. 2019.<br>
+        5.-Future innovations in microbiome. Entidad de afiliación: Currnt. 2018.<br>
+        6.-	Exploring the Role of Skin Care Professionals in Dermatology Treatments.Entidad de afiliación: CONVETIT. 2017.<br>
+        7.-International PC Consortium (IPCC). Entidad de afiliación: Pachyonychia Congenita Projec. 2012.</li>
+<li><strong>Patentes:</strong><br>
+    Documentos acreditativos:<a href="patentes.pdf">PDF</a><br>
+    1.-P201830244: Aislamiento de células satélite a partir de biopsia de músculo cremáster. Ámbito: autonómico. 2018.<br>
+    2.-PCT/ES2016/070752:Método de identificación, aislamiento y/o selección de tejido uretral. Ámbito: autonómico. 2016 </li>
+<li><strong>Actividades de divulgación científica:</strong><br>1. Comunicaciones orales en congresos internacionales: 10; Comunicaciones orales en congresos nacionales: 3; Comunicaciones con póster en congresos internacionales: 24; Comunicaciones con póster en congresos nacionales: 10.<br> 2.-Evento ‘La noche europea
+de los Investigadores del Plan Anual de Divulgación Científica de la Universidad de Málaga-UMA Divulga: Beneficios del deporte en el tratamiento
+integrativo de endometriosis. Curso 2025/26.<a href="https://lanochedelosinvestigadores.fundaciondescubre.es/investigador/maria-fernanda-nanda-lara-cabanas/"target="_blank"> Info aquí.</a><br>
+3.-Evento ‘La noche europea
+de los Investigadores del Plan Anual de Divulgación Científica de la Universidad de Málaga-UMA Divulga: Aprendemos jugando sobre salud sexual y diversidad. Curso 2022/23 y 2023/24.<br>3.-Divulgación sobre las convocatorias EMERGIAS:Investigadoras ‘Emergia’ de la UMA analizan la presencia de la mujer en convocatorias de I+D. FUNDACION GENERAL DE LA UNIVERSIDAD DE MALAGA.<a href="https://www.uma.es/sala-de-prensa/noticias/investigadoras-emergia-de-la-uma-analizan-la-presencia-de-la-mujer-en-convocatorias-de-id/" target="_blank"> Info aquí</a><br>
+4.-Evento ‘La noche europea de los Investigadores del Plan Anual de Divulgación Científica de la Universidad de Málaga-UMA Divulga:¡Mamá, papá, quiero hacer pipí!. Curso 2018/19.<br>
+5.-Difusión, entrevista de medios de comunicación: Tresur: Terapias regenerativas para incontinencia urinaria de estrés. 2017.<a href="https://www.zinkinn.es/proyectos/node_created_on20171228174513/"target="_blank"> Info aquí</a><br>
+6.-Difusión, entrevista en medios de comunicación: Terapias regenerativas para incontinencia urinaria: Canal sur Radio;  Hora Sur Málaga. 2017<br>
+7.-Difusión, entrevista en medios de comunicación: Terapias regenerativas para incontinencia urinaria: Canal sur televisión telediario regional Málaga. 2017. <a href="https://www.facebook.com/watch/?v=1886187408303270"target="_blank"> Info aquí</a></li>
+<li><strong>Estancias en centros fuera de España:</strong><br>1.-Estancia predoctoral: 4 meses. MD Anderson Cancer Center Science Park; Smithville, Tx, EEUU. 2005.<br>
+2.-Estancia postdoctoral: 4 años. Universidad de stanford; CA, EEUU. 2007-2010 . <br> 3.-Estancia postdoctoral: 11 meses. TransDerm INC. CA, EEUU. 2010-2011.<br>
+</li>
+<li><strong>Ayudas, premios y becas concedidas:</strong><a href="Becas juntas.pdf"> PDF</a><br>
+    1.-Premio a la mejor comunicación poster en II Jornada Nacional sobre el abordaje interdisciplinar de la endometriosis. 2024. Entidad financiadora: Universidad de Málaga. <a href="mejor poster endometriosis.pdf"> PDF</a><br>
+    2.-Programa de captación de talento EMERGIA 2020. Entidad financiadora: Junta de Andalucía. Financiación: 288.000€. <a href="Propuesta definitiva concesión.pdf"> PDF</a><br>
+    3.-Accesit IBIMA 2018. Entidad financiadora: IBIMA. Financiación:5000€. <a href="caixa IBIMA accesit 12.pdf"> PDF</a><br>
+    4.-PEJ-2014-P-01215: Captación de personal con el programa de Promoción de Empleo Joven e Implantación de la Garantía Juvenil en I+D+i Fomento y desarrollo del grupo emergente de Urología del Hospital
+        Universitario Virgen de la Victoria. 2015. <a href="captación de personal.pdf"> PDF</a><br>
+    5.-Convocatoria de la Fundación Pública Andaluza Progreso y Salud (Servicio Andaluz de Salud - SAS) 2014. Entidad Financiadora: Consejería de Salud y consumo de la Junta de Andalucía. Financiación: 39100€<br>
+    6.-Consejería de Salud de la Junta de Andalucía, Programa de especialización en reprogramación celular en · la Universidad Estatal de Michigan (EE.UU.), bajo la dirección del Dr. Cibelli. 2009. Entidad Financiadora: Consejería de salud, Junta de Andalucía. <a href="Notificacion Células madre Seleccion_Lara Cabanas.pdf">PDF</a><br>
+    7.-Convocatoria becas postdoctorales Fulbright 2008 para hacer el postdoctorado en la Universidad de Stanford. Entidad Financiadora: Ministerio de Ciencia e Innovación. Investigación.<br>
+    8.-Dean´s Fellowship award 2008. Entidad Financiadora: Universidad de Standford. Financiación: 25000$.<br>
+    9.-Beca de viaje 2006. Entidad Fianciadora: Cold Spring Harbor University. Financiación:200$.<br>
+    10.-Beca de estancia de investigación 2005. Entidad Fianciadora: Ministerio de Ciencia y Tecnología.<br>
+    11.-Beca FPI predoctoral 2003. Entidad Financiadora: MINISTERIO DE CIENCIA Y TECNOLOGÍA.<br>
+    12.-Beca de personal de investigación 2002. Entidad Financiadora: Fundación Hospital Reina Sofía-CajaSur.<br>
+    </li>
+<li><strong>Voluntariados:</strong><br>
+    1.-Voluntaria en Fundación Harena en programa Soledad 0-Vida 10 desde 2024. <a href="Certificado de voluntariado María Fernanda Lara Cabanás.pdf"> PDF
+</li>
+</ul>
+
+</div>
+<!-- ANCLA A CURSOS -->
+<a href="#" onclick="goToCursos()">Ir Inicio</a>&NonBreakingSpace;&nbsp;
+</div>
+
+<!-- PERFIL DOCENTE -->
+<div id="docente" class="content">
+<h2>Perfil Docente</h2
+Mi actividad docente se caracteriza por un enfoque interdisciplinar, inclusivo e innovador, basado en metodologías de aprendizaje activo con apoyo de problemas prácticos y un fuerte énfasis en la transferencia del conocimiento.<br>
+En el ámbito de la educación secundaria y la formación profesional, he diseñado itinerarios educativos innovadores centrados en el aprendizaje basado en proyectos, la alfabetización científica crítica y la promoción de vocaciones STEM, especialmente entre grupos infrarrepresentados.<br>
+Además, he participado en iniciativas de divulgación científica (por ejemplo, la Noche Europea de los Investigadores) para fortalecer la conexión entre ciencia, educación y sociedad. Dentro de esta actividad he desarrollado un juego de mesa para integrar conocimiento sobre salud sexual y maquetas específicas del sistema urinario para reconocimiento de alerta de cáncer vesical.<br><br>
+
+
+<!-- SUBPESTAÑAS -->
+<div class="subtabs">
+<button class="subtab active" onclick="openSubTab('Titulaciones', this)">Titulaciones</button>
+<button class="subtab" onclick="openSubTab('Experiencia profesional', this)">Experiencia profesional</button>
+<button class="subtab" onclick="openSubTab('Cursos educativos', this)">Cursos educativos</button>
+</div>
+
+<!-- TITULACIONES -->
+<div id="Titulaciones" class="subcontent show">
+<h3>Titulaciones</h3>
+<ul>
+    <li>Licenciada en Biología. Universidad Complutense de Madrid. Especialidad Genética. 2000. <a href="Titulo licenciada.pdf"> PDF</a></li>
+    <li>Doctora en Biología por la Universidad de Córdoba Especialidad Genética. 2007. <a href="titulo de doctora.pdf">PDF</a></li>
+    <li>Título de Aptitud Pedagógica CAP. Universidad Complutense de Madrid. 2001. <a href="CAP cara.pdf"> PDF</a></li>
+</ul>
+</div>
+
+<!-- EXPERIANCIA PROFESIONAL -->
+<div id="Experiencia profesional" class="subcontent">
+<h3>Experiencia profesional</h3>
+<ul>
+<li>Profesora de Biología y Geología en educación secundaria. Institución: Instituto OBRA PIA SANTISIMA TRINIDAD; Córdoba. Curso 2001-2002. <a href="trinidad sansueña.1.pdf"> PDF</a> </li>
+<li>Turora de alumno de prácticas CAP del Instituto de Ciencias de la educación de la Universidad Complutense de Madrid. Institución de realización: Instituto OBRA PIA SANTISIMA TRINIDAD; Córdoba. Curso 2001-2002. <a href="cert tutora CAP Emilio.pdf"> PDF</a></li>
+<li>Profesora de Educación sanitaria y Promoción de la Salud en ciclos de grado superior de Laboratorio de Diagnóstico Clínico y de Salud Ambiental. Institución: OBRA PIA SANTISIMA TRINIDAD; Córdoba. Curso 2001-2002.</li>
+<li>Tutora laboral para el centro de trabajo "Servicio Andaluz de la Salud" del módulo profesional del ciclo formativo:Laboratorio y Diagnóstico Clínico de grado superior para alumnado del centro docente I.E.S. Santa Bárbara de Málaga. Centro de realización: IBIMA, Málaga. Curso: 2015/16. <a href="tutora pf 2016.pdf"> PDF</a></li>
+<li>Tutora laboral para el centro de trabajo "Servicio Andaluz de la Salud" del módulo profesional del ciclo formativo:Laboratorio Clínico y Biomedicina de grado superior para alumnado del centro docente I.E.S. Santa Bárbara de Málaga. Centro de realización: IBIMA, Málaga. Curso: 2016/17. <a href="tutora fp 2017.pdf"> PDF</a></li>
+<li>Coordinadora y organizadora del curso práctico de desarrollo de modelos animales de incontinencia urinaria dentro del mardo de la red Europea COST Network Action ReST BM1209:Regenerative Sphincter Therapy. 2016. <a href="19animal model SUI COST.pdf"> PDF</a></li>
+<li>Mentora del programa internacional Technovation Challenge. Cursos: 2017/18 y 2019/20. <a href="2018-mentor_appreciation-48560-9481.pdf"> PDF</a> <a href="2020-mentor.pdf">PDF1</a></li>
+<li>Coordinadora y organizadora de la actividad European Corner ‘¡Mamá, papá! ¡Quiero hacer pipí!: El sistema urinario y posibles alteraciones’ en la ‘La Noche Europea de los Investigadores’ 2019. <a href="CertificadoEuropeanCorner.pdf"> PDF</a></li>
+<li>Profesora Interina de Biología y Geología en educación secundaria. Institución: Consejería de Educación y Ciencia. Junta de Andalucía; Málaga. Curso 2020/21. <a href="ies miraya del mar.pdf">PDF</a> <a href="IES cala de mijas.pdf"> PDF</a></li>
+<li>Coordinadora y organizadora de la actividad ‘Jugando aprendemos de salud sexual y diversidad’ en el Colegio Los
+Maristas, CDP Cruz Roja e IES Fernando de los Ríos, enmarcada en el evento ‘La noche europea
+de los Investigadores’. Esta actividad forma parte del ‘Plan Anual de Divulgación Científica de la
+Universidad de Málaga-UMA Divulga'. 2022 y 2024. <a href="peticionfiles_2024_04_Maria_Fernanda_Lara.pdf"> PDF</a></li>
+<li>Docencia universitaria en módulo de educación afectivo-sexual del títulos propios de la Universidad de Valencia. Modalidad Online. Cursos 2023/24; 2024/25; 2025/26. <a href="certificado uv curso 25.pdf"> PDF</a></li>
+<li>Codirectora de TFG: Tratamiento interdisciplinar de la Endometriosis. Universidad de Málaga. 2025. <a href="tutora TFG.pdf"> PDF</a></li>
+<li>Coordinadora y organizadora de la actividad ‘Beneficios del deporte en el tratamiento
+integrativo de endometriosis’ en el COLEGIO NUESTRA SEÑORA DE LA VICTORIA (HERMANOS MARISTAS), enmarcada en el evento ‘La noche europea
+de los Investigadores’ del ‘Plan Anual de Divulgación Científica de la Universidad de Málaga-UMA Divulga'. Curso 2025/26.</li>
+</ul>
+
+<!-- ANCLA A CURSOS -->
+<a href="#" onclick="goToCursos()">Ir Inicio</a>&NonBreakingSpace;&nbsp;
+</div>
+<!-- CURSOS EDUCATIVOS -->
+<div id="Cursos educativos" class="subcontent">
+<h3>Cursos educativos</h3>
+<ul>
+    <li>Confección y publicación de páginas web (IFCD0110). Entidad organizadora: Euroformat. 2026</li>
+    <li>Fotografía digital y empresa (IMST07). Entidad organizadora: Fundación Maude. 2025. <a href="FOTOGRAFÍA_DIGITAL_Y_EMPRESA_(IMST07)___0110019000003-Diploma_de_aprovechamiento_7312.pdf">PDF</a></li>
+    <li>Bibliometría Narrativa: Aplicación de principios DORA - COARA en la evaluación de la producción científica en Ciencias de la Salud. Entidad organizadora: IBIMA Plataforma BIONAND.2025. <a href="bibliografía narrativa.pdf">PDF</a></li>
+    <li>(D044-25) Edición de vídeos cortos para la exposición de contenidos docentes. Entidad organizadora:Servicio de Formación e Innovación de la Universidad de Málaga. 2025. <a href="certif edicion digital.pdf">PDF</a></li>
+    <li>Atención a la diversidad afectivo-sexual para profesionales. Entidad organizadora: Ayuntamiento de Mijas. 2021.<a href="27 igualdad y diversidad.pdf">PDF</a></li>
+    <li>Estrategias para la atención a la diversidad del alumnado en el aula ordinaria. Entidad organizadora: Consejería de educación y deporte. 2020. <a href="26 curso diversidad escuela.pdf">PDF</a></li> 
+    <li>Medioambiente y territorio: evaluación del impacto ambiental. Entidad organizadora:Consejería de Educación y Ciencia. 2001. <a href="4 medio ambiente.pdf">PDF</a></li>
+    <li>Itinerario didáctico multidisciplinar por la sierra de Aracena y Picos de Aroche. Entidad organizadora: Consejería de Educación y Ciencia. 2001. <a href="5 itinerario didáctico.pdf">PDF</a></li>
+    <li>Tratamiento y gestión de residuos radiactivos específico para docentes. Entidad organizadora: Ilustre colegio oficial de físicos de España. 1998. <a href="1 residuos radiactivos (1).pdf">PDF</a></li>
+</ul>
+<!-- ANCLA A CURSOS -->
+<a href="#" onclick="goToCursos()">Ir Inicio</a>&NonBreakingSpace;&nbsp;
+</div>
+</div>
+<!-- PERFIL DEPORTIVO -->
+<div id="deportivo" class="content">
+<h2>Perfil Deportivo y Bienestar</h2>
+Entusiasta del deporte, con el propósito de formalmente convertir el deporte en tratamiento médico de prescripción. He practicado y sentido el beneficio de distintas disciplinas aéreas y el yoga desde 2019, tras lo cual, decidí formarme oficialmente, tanto en pole como en yoga, y así integrar mis pasiones y pedir proyectos que financien el estudio de los beneficios del deporte científicamente.<br><br>
+<!-- SUBPESTAÑAS -->
+<div class="subtabs">
+<button class="subtab active" onclick="openSubTab('Formación', this)">Formación</button>
+<button class="subtab" onclick="openSubTab('Experiencia laboral', this)">Experiencia profesional</button>
+
+</div>
+
+<!-- FORMACION -->
+<div id="Formación" class="subcontent show">
+<h3>Formación</h3>
+<ul>
+<li>Instructora certificada de yoga. certificado profesional AFDA0311 instruccion en yoga. Entidad de Certificación: CESUR. 2025.<a href="CERTIFICADO yoga(3).pdf"_blank"> Certificado</a></li>
+<li>Instructora certificada en pole giratorio. Entidad de Certificación: Xpert Fitness. 2025.<a href="xpert fitness.pdf"_blank"> Certificado</a></li>
+<li>Instructora certificada en pole dance: secuencias y combos nivel intermedio/Avanzado 1. Entidad de Certificación:Escuela de Pole Sport y alto rendimiento Betty Yein.2024. <a href="bettyein certificado pole.pdf"> PDF</a></li>
+<li>Curso de "Planificación y mantenimiento de instalaciones deportivas municipales" Entidad organizadora: Consejería de Cultura y Deporte
+Instituto Andaluz del Deporte. 9 de octubre de 2025. <a href="instalaciones deportivas.pdf"> PDF</a></li>
+<li>Participación en la XIII edición de meeting Cerdanya: Naturaleza Fractal. Esta experiencia incluye danza holística, movimiento, Telas aéreas, Aro aéreo, Pole Dance, Flexibilidad y Movilidad, Técnicas energéticas y de respiración, Yoga, Meditación, Anatomía aplicada al movimiento y sound healing. 2025. <a href="https://www.instagram.com/meetingcerdanya/" target="_blank">@meetingcerdanya</a></li>
+<li>Participación en la VII edición de meeting Cerdanya: Equilibrio. Esta experiencia incluye Danza y movimiento, Telas aéreas, Aro aéreo, Pole dance, Improvisación y procesos de creación en disciplinas aéreas, Flexibilidad y Movilidad, Técnicas energéticas y de respiración, Yoga, Meditación, Anatomía aplicada al movimiento. 2022.</li>    
+<li>Más de 200 horas de clases con <a href="https://www.piensaenvertical.com/sobre-fani-pole-sport" target="_blank">@Piensaenvertical</a>, academia de pole online, liderada por Estefanía Arroyo, campeona de España en Pole sport elite.</li>
+<li>Más de 50 horas de clases con <a href="https://vickyrame.com/" target="_blank">@Victoria Ramé</a>, subcampeona mundial en el “World Pole Sport Championship” 2014</li>
+<li>Más de 30 horas de clases con <a href="https://www.instagram.com/dianacruz8/?__d=undefined" target="_blank">@Diana Cruz</a> en Pole exótico, mejicana medalla de oro en Generación Exótica Duro 2023</li>
+<li>Tercer premio del reto de baile exótico en silla patrocinado por <a href="https://www.instagram.com/chrisseadance/" target="_blank">@Chris Sea</a>CEO de Get Fit and Pole con el que pude hacer más de 10h de prácticas de pole de su plataforma online Get fit and pole. 2022.</li>
+<li>Numerosas clases de diferentes expertas en Pole sport como <a href="https://www.instagram.com/gisellepoleart/?hl=es" target="_blank">@Gisellepoleart</a> <a href="https://www.instagram.com/sasha____romanova/" target="_blank">@sasha_romanova</a> o <a href="https://www.instagram.com/melanier.z/" target="_blank">@MelanieRuiz</a>...etc.</li>
+<li>Módulo de primeros auxilios: MF0272_2: Primeros auxilios. Entidad organizadora: CESUR. 2026</li>
+<li>Curso de formación en Socorros y Emergencias. Entidad organizadora: Centro de formación de la cruz roja Española. 1995. <a href="socorros y emergencias (1).pdf"> PDF</a></li>
+
+</ul>
+<!-- ANCLA A CURSOS -->
+<a href="#" onclick="goToCursos()">Ir Inicio</a>&NonBreakingSpace;&nbsp;
+</div>
+
+<!-- EXPERIANCIA LABORAL -->
+<div id="Experiencia laboral" class="subcontent">
+<h3>Experiencia laboral</h3>
+<ul>
+<li>Instructora de yoga, yoguilates y pilates en centros Vals Sport de Málaga 2025-2026.</li>
+<li>Instructora particular de pole dance/sport desde 2023. Si quieres ver los progresos de una de mis alumnas pincha <a href="https://www.instagram.com/fitsabel.corpas/?hl=es" target="_blank">aquí.</a></li>
+<li>Instructora del taller "Deporte y salud" impartido en el marco de la Noche Europea de los investigadores en las aulas. Entidad organizadora: Universidad de Málaga. Centro de realización: Colegio Marista "Ntra. Sra. de la Victoria". 2026.</li>
+</ul>
+
+</div>
+
+</div>
+
+<script>
+
+function openTab(id, btn){
+    document.querySelectorAll(".content").forEach(c=>c.classList.remove("show"));
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    document.getElementById(id).classList.add("show");
+    btn.classList.add("active");
+}
+
+function openSubTab(id, btn){
+    document.querySelectorAll(".subcontent").forEach(c=>c.classList.remove("show"));
+    document.querySelectorAll(".subtab").forEach(t=>t.classList.remove("active"));
+    document.getElementById(id).classList.add("show");
+    btn.classList.add("active");
+}
+
+function goToProyectos(){
+
+    // Activar pestaña principal científica
+    document.querySelectorAll(".content").forEach(c=>c.classList.remove("show"));
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    document.getElementById("cientifico").classList.add("show");
+    document.querySelectorAll(".tab")[0].classList.add("active");
+
+    // Activar subpestaña proyectos
+    document.querySelectorAll(".subcontent").forEach(c=>c.classList.remove("show"));
+    document.querySelectorAll(".subtab").forEach(t=>t.classList.remove("active"));
+    document.getElementById("proyectos").classList.add("show");
+    document.querySelectorAll(".subtab")[1].classList.add("active");
+
+    // Scroll suave
+    document.getElementById("proyectos").scrollIntoView({behavior:"smooth"});
+}
+
+</script>
+
+</body>
+</html>
+
+
